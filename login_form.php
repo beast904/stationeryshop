@@ -1,4 +1,9 @@
 <?php
+//this login oage contains both php script and html form
+//here it also checks if email is verified or not
+//here it provides validation to inputted data
+//good login page
+//login page opens in a popup window
 include "db.php";
 $emsg = '';
 if(isset($_POST['login_button']))
