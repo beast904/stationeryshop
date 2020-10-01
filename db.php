@@ -1,5 +1,5 @@
 <?php
-
+//this db.php is used to connect database with the php using mysql
 $servername = "localhost";
 $username = "root";
 $password = "";
