@@ -9,8 +9,8 @@ if( isset( $_POST['submit'] ) )
 	$email = $_POST['email'];
 	$password = $_POST['password'];
 
-	$sql = "select * from admin_login where email='$email' and password = '$password'";
-	$cmd = mysql_query( $sql, $conn );
+	
+	$cmd = mysql_query("select * from admin_login where email='$email' and password = '$password'" , $conn );
 	$count = mysql_num_rows( $cmd );
 	if( $count == 1 )
 	{
