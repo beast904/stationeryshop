@@ -1,3 +1,8 @@
+//this is index page
+//it automatically runs when the folder is started
+//it also verifies email
+//with an otp sent to users email
+//user must verify before login
 <!DOCTYPE html>
 <?php 
 include "header.php"; 
